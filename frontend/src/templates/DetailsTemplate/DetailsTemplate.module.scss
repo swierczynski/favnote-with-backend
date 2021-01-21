@@ -1,0 +1,36 @@
+.outsideWrapper {
+  box-shadow: 0 10px 30px -10px hsla(0, 0%, 0%, 0.1);
+  width: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  cursor: default;
+
+  .headingWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    p {
+      font-size: 10px;
+    }
+  }
+
+  h2 {
+    padding: 20px 10px 5px 10px;
+  }
+
+  p {
+    padding: 10px;
+    flex-grow: 1;
+    margin-top: 20px;
+  }
+
+  button {
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+}

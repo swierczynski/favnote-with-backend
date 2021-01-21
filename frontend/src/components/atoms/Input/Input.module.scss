@@ -1,0 +1,21 @@
+.input {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+
+  ::placeholder {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: grey;
+  }
+}
+
+.inputSearch {
+  padding: 10px 20px 10px 40px;
+  background-size: 15px;
+  background-position: 10px 50%;
+  background-repeat: no-repeat;
+  background-color: #bebebe;
+  border: none;
+  border-radius: 50px;
+}

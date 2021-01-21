@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  align-items: center;
+
+  ul {
+    list-style: none;
+  }
+
+  img {
+    margin-top: 20px;
+    display: block;
+    width: 67px;
+    height: 67px;
+  }
+
+  .logo {
+    height: 150px;
+  }
+
+  .mainBtn {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .active button {
+      background-color: #fff;
+    }
+
+  }
+
+  .logout {
+    margin-bottom: 70px;
+  }
+
+
+}
